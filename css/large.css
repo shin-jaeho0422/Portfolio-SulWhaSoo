@@ -1,0 +1,59 @@
+body {
+    overflow-x : hidden;
+}
+
+/* ※※※※※※※※※※※※※※※ Content ※※※※※※※※※※※※※※※ */
+.content-inner .content-list-wrap {
+    height: 350px;
+}
+
+.content-list li .content-img img {
+    width: auto;
+}
+
+/* ※※※※※※※※※※※※※※※ Lounge ※※※※※※※※※※※※※※※ */
+.lounge-img {
+    width: 40vw;
+}
+
+.lounge-img a img {
+    width: 100%;
+}
+
+.lounge-cont .lounge-txt-wrap .sub-txt {
+    margin-top: 2.5vw;
+    font-size: 3vw;
+    line-height: 4vw;
+}
+
+.lounge-cont .lounge-txt-wrap .desc-txt {
+    margin-top: 1vw;
+    font-size: 1.4vw;
+    line-height: 2vw;
+}
+
+.lounge-cont .lounge-txt-wrap .btn-wrap .btn-view {
+    margin-top: 3.7vw;
+    height: 2.6vw;
+    padding: 0 3vw;
+    font-size: 1vw;
+    line-height: 2.6vw;
+}
+
+/* ※※※※※※※※※※※※※※※ Flagship ※※※※※※※※※※※※※※※ */
+.flagship .flag-wrap {
+    height: 27vw;
+}
+
+.flag-wrap .flag-txt-wrap {
+    width: 25vw;
+}
+
+.flag-txt-wrap p {
+    font-size: 1.3vw;
+}
+
+.flag-wrap .arrow {
+    width: 3vw;
+    height: 5vw;
+}

@@ -1,0 +1,280 @@
+/* ※※※※※※※※※※※※※※※ Header ※※※※※※※※※※※※※※※ */
+header .header-inner {
+    height: 50px;
+}
+
+.header-inner .nav-btn {
+    top: 15px;
+}
+
+.header-link a.search {
+    bottom: 10px;
+}
+
+.header-inner h1.logo img {
+    width: 120px;
+}
+
+input[type=search] {
+    height: 40px;
+}
+
+.search-wrap button.search-btn {
+    top: -7px;
+}
+
+/* ※※※※※※※※※※※※※※※ Visual ※※※※※※※※※※※※※※※ */
+.visual .visual-wrap {
+    height: 135vw;
+}
+
+.visual-slide:nth-child(1) {
+    background-image: url(../images/visu_mo_01.jpg);
+}
+.visual-slide:nth-child(1) .txt-wrap {
+    background-color: rgba(237, 185, 46, .30);
+}
+
+.visual-slide:nth-child(2) {
+    background-image: url(../images/visu_mo_02.jpg);
+}
+.visual-slide:nth-child(2) .txt-wrap {
+    background-color: rgba(164, 105, 50, .50);
+}
+
+.visual-slide:nth-child(3) {
+    background-image: url(../images/visu_mo_03.jpg);
+}
+.visual-slide:nth-child(3) .txt-wrap {
+    background-color: rgba(140, 171, 217, .50);
+}
+
+.visual-slide .visual-veil {
+    visibility: hidden;
+}
+
+.visual-slide .txt-wrap {
+    top: auto;
+    bottom: 0;
+    width: 100%;
+    height: 28vw;
+}
+
+.txt-wrap .txt-cont {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.txt-cont .txt-title {
+    font-size: 6vw;
+    line-height: 7vw;
+}
+
+.txt-cont .txt-sub01 {
+    margin-top: 1.25vw;
+    font-size: 3.5vw;
+}
+
+.txt-cont .txt-sub02 {
+    display: none;
+}
+
+.txt-cont .btn-wrap {
+    display: none;
+}
+
+.visual .dots-wrap {
+    bottom: -7vw;
+}
+
+.dots-wrap li.dots-list a {
+    width: 3vw;
+    height: 3vw;
+    background-color: #797979;
+    border-radius: 1.2vw;
+    margin: 0 8px;
+}
+
+.visual .arrow {
+    width: 8vw;
+    top: auto;
+    bottom: -11vw;
+    padding: 5px;
+}
+
+/* ※※※※※※※※※※※※※※※ Content ※※※※※※※※※※※※※※※ */
+.content .content-inner {
+    margin-top: 22vw;
+}
+
+.content-inner h2.cont-title {
+    font-size: 5vw;
+}
+
+.content-inner .content-tab {
+    width: auto;
+    height: 8.5vw;
+    margin: 0 5vw;
+}
+
+.content-inner .content-list-wrap {
+    height: 139vw;
+}
+
+.content-list-wrap .content-list {
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.content-list li {
+    width: 50%;
+    height: 68vw;
+    padding: 0 1.25vw;
+    cursor: pointer;
+}
+
+.content-list li .content-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vw;
+    border: 1px solid #eee;
+}
+
+.content-list li:hover .buy-view-layer {display: none;}
+
+.content-list li .content-img img {
+    height: 30vw;
+}
+
+.content-list li .content-name {
+    padding: 1.8vw;
+    font-size: 3vw;
+}
+
+/* ※※※※※※※※※※※※※※※ Lounge ※※※※※※※※※※※※※※※ */
+.lounge .lounge-cont {
+    flex-wrap: wrap;
+    padding: 0 5vw;
+    margin: 50px 0 0;
+    position: relative;
+}
+
+.lounge-img {
+    width: 80vw;
+    height: 80vw;
+    margin: auto;
+}
+
+.lounge-cont .lounge-txt-wrap {
+    width: 80vw;
+    height: 60vw;
+}
+
+.lounge .lounge-cont > .lounge-img {
+    margin-top: 60px;
+}
+
+.lounge-cont:nth-child(2) .lounge-img {
+    order: 0;
+}
+
+.lounge-cont .lounge-txt-wrap h3 {
+    font-size: 5vw;
+    position: absolute;
+    top: 0;
+    width: 80vw;
+}
+
+.lounge-cont .lounge-txt-wrap .sub-txt {
+    font-size: 5vw;
+    line-height: 7vw;
+}
+
+.lounge-cont .lounge-txt-wrap .desc-txt {
+    font-size: 4vw;
+    line-height: 6vw;
+    margin-top: 4vw;
+    margin-bottom: 0;
+}
+
+.lounge-cont .lounge-txt-wrap .btn-wrap .btn-view {
+    font-size: 3vw;
+    padding: 3vw 0;
+    line-height: 0.2vw;
+    width: 25vw;
+}
+
+.lounge-cont:nth-child(1) .lounge-txt-wrap, 
+.lounge-cont:nth-child(2) .lounge-txt-wrap {
+    margin: auto;
+}
+
+/* ※※※※※※※※※※※※※※※ FlagShip ※※※※※※※※※※※※※※※ */
+.flagship {
+    margin-top: 50px;
+}
+
+.flagship .flag-wrap {
+    height: auto;
+    padding: 0 8vw 10vw;
+    background-image: url(../images/flag-bg-txt-mo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left bottom;
+}
+
+.flag-wrap ul.flag-slide {
+    height: 83vw;
+}
+
+li.flag-list:nth-child(1) {
+    background-image: url(../images/flag-bg-mo-01.jpg);
+}
+
+li.flag-list:nth-child(2) {
+    background-image: url(../images/flag-bg-mo-02.jpg);
+}
+
+li.flag-list:nth-child(3) {
+    background-image: url(../images/flag-bg-mo-03.jpg);
+}
+
+li.flag-list:nth-child(4) {
+    background-image: url(../images/flag-bg-mo-04.jpg);
+}
+
+.flag-wrap .flag-txt-wrap {
+    position: static;
+    width: 100%;
+}
+
+.flag-txt-wrap p {
+    margin: 6vw 0 0;
+    font-size: 4vw;
+    line-height: 6vw;
+}
+
+.flag-wrap .flag-dots-wrap {
+    margin-top: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 85vw;
+}
+
+.flag-wrap .arrow {
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    top: 80vw;
+}
+
+.flag-wrap .flag-prev {
+    left: 10%;
+}
+
+.flag-wrap .flag-next {
+    right: 10%;
+}
